@@ -1,5 +1,6 @@
 #!/bin/bash
 if (($# < 1)); then
+	echo "Indicar la dirección donde almacenar la snapshot"
 	exit -1
 fi
 
